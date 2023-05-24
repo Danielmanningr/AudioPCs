@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio PCs - Shop</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/format.css" />
+    <link rel="stylesheet" type="text/css" href="/css/shop.css" />
+    <script
+      src="https://kit.fontawesome.com/eeb53423b0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="preload">
+    <div class="page">
+      <!--Header | Site navigation-->
+      <div class="header">
+        <div class="headerTopNavigation section">
+          <div class="container">
+            <div class="headerTopNavigationMenu">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                  <a href="shop.html" class="all locator">Shop</a>
+                </li>
+                <li>
+                  <a href="shop.html" class="locator-audio locator"
+                    >Audio PCs</a
+                  >
+                </li>
+                <li>
+                  <a href="shop.html" class="locator-gaming locator"
+                    >Gaming PCs</a
+                  >
+                </li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="blog.html">Blog</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--Header | Primary header-->
+        <div class="headerPrimaryContainer section">
+          <div class="logoTitle">
+            <div class="logo">
+              <img src="/images/Icons/logoWhite.png" alt="Company Logo" />
+            </div>
+            <h1 class="title">Audio PCs</h1>
+          </div>
+
+          <!--Search bar-->
+          <div class="search">
+            <form id="searchBar">
+              <input type="text" id="searchInput" placeholder="Search.." />
+            </form>
+          </div>
+
+          <!--User menu-->
+          <div class="userMenu">
+            <ul>
+              <li class="cart">
+                <a href="cart.html"
+                  >Cart<img src="/images/Icons/Cart Icon.png" alt="Cart Icon"
+                /></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="miniUserMenu">
+            <ul>
+              <li class="searchIcon">
+                <a href="#">
+                  <img src="/images/Icons/WhiteSearchIcon.png" alt="Search" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="/images/Icons/whiteProfileIcon.png" alt="Account" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="/images/Icons/Cart Icon.png" alt="Cart" />
+                </a>
+              </li>
+              <li>
+                <!-- Hamburger icon -->
+                <input class="side-menu" type="checkbox" id="side-menu" />
+                <label class="hamb" for="side-menu">
+                  <span class="hamb-line"></span>
+                  <div class="hambMenu">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <div class="container">Pre-built PCs</div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="container">Support</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </label>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!--Dropdown menu-->
+        <div class="shop-page-header">
+          <!--Dropdown menu-->
+          <div class="headerNavigationContainer">
+            <div class="innerContainer">
+              <div class="headerNavigationMenu">
+                <div class="dropdownMenu">
+                  <div class="dropdown">
+                    <button class="dropButton bigDropButton">
+                      <a href="shop.html" class="all locator">Pre-built PCs</a>
+                    </button>
+                    <div class="dropdownContent">
+                      <a href="shop.html" class="locator-audio locator"
+                        >Audio PCs</a
+                      >
+                      <a href="shop.html" class="locator-gaming locator"
+                        >Gaming PCs</a
+                      >
+                    </div>
+                  </div>
+                  <div class="menuItem">
+                    <button class="dropButton bigDropButton">
+                      Design your own PC
+                    </button>
+                    <div class="dropdownContent"></div>
+                  </div>
+                  <div class="dropdown">
+                    <button class="dropButton bigDropButton">Resources</button>
+                    <div class="dropdownContent">
+                      <a href="#">Blog</a>
+                      <a href="#">News</a>
+                    </div>
+                  </div>
+                  <div class="menuItem">
+                    <button class="dropButton bigDropButton">Support</button>
+                    <div class="dropdownContent"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Main | Page content-->
+      <div class="main section">
+        <div class="wrapper">
+          <h1>Products</h1>
+          <div class="container">
+            <div class="filter">
+              <section class="filterOptions">
+                <div class="catergory">
+                  <h3>Browse By:</h3>
+                  <div class="catergories">
+                    <ul>
+                      <li>
+                        <a href="#" class="btn active" data-filter="all">
+                          All Products
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="btn" data-filter="audio">
+                          Audio PCs
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="btn" data-filter="gaming">
+                          Gaming PCs
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="btn" data-filter="watercooled">
+                          Water Cooling
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="filterPrice">
+                  <h3>Filter Price:</h3>
+                  <div class="price-content">
+                    <div>
+                      <label>Min</label>
+                      <p id="min-value">$500</p>
+                    </div>
+                    <div>
+                      <label>Max</label>
+                      <p id="max-value">$12000</p>
+                    </div>
+                  </div>
+                  <div class="range-slider">
+                    <input
+                      type="range"
+                      class="min-price sliderThumb"
+                      value="0"
+                      min="0"
+                      max="12000"
+                      step="500"
+                    />
+                    <input
+                      type="range"
+                      class="max-price sliderThumb"
+                      value="12000"
+                      min="0"
+                      max="12000"
+                      step="500"
+                    />
+                  </div>
+                </div>
+              </section>
+            </div>
+
+            <div class="products">
+              <div
+                class="productWrapper locator-gaming gaming watercooled watercooling 12000"
+              >
+                <a
+                  href="products.html"
+                  target="_blank"
+                  class="storeItem"
+                  id="The Queen"
+                  data-item="gaming watercooled"
+                  ><div class="infoContainer">
+                    <img
+                      src="/images/Components/Cases/Lian Li/O11D XL/O11D XL Black/CHALAN2045__2.png"
+                      alt="#"
+                    />
+                    <div class="productDetails">
+                      <h2>The Queen</h2>
+                      <hr />
+                      <p class="price">12000</p>
+                      <p class="cartBtn">Add to Cart</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="productWrapper locator-gaming gaming watercooled watercooling 12000"
+              >
+                <a
+                  href="products.html"
+                  target="_blank"
+                  class="storeItem"
+                  id="The King"
+                  data-item="gaming watercooled"
+                >
+                  <div>
+                    <img
+                      src="/images/Components/Cases/Lian Li/O11D Mini/O11D Air Mini White/O11-Air-MINI-White-2.jpg"
+                      alt="#"
+                    />
+                    <div class="productDetails">
+                      <h2>The King</h2>
+                      <hr />
+                      <p class="price">12000</p>
+                      <p class="cartBtn">Add to Cart</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div
+                class="productWrapper locator-gaming gaming watercooled 9000"
+              >
+                <a
+                  href="products.html"
+                  target="_blank"
+                  class="storeItem"
+                  id="The Speaker"
+                  data-item="gaming watercooled"
+                >
+                  <div>
+                    <img
+                      src="/images/Components/Cases/Lian Li/O11D Mini/O11D Air Mini White/O11-Air-MINI-White-2.jpg"
+                      alt="#"
+                    />
+                    <div class="productDetails">
+                      <h2>The Speaker</h2>
+                      <hr />
+                      <p class="price">9000</p>
+                      <p class="cartBtn">Add to Cart</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="productWrapper locator-gaming gaming 6500">
+                <a
+                  href="products.html"
+                  target="_blank"
+                  class="storeItem"
+                  id="The Governor"
+                  data-item="gaming"
+                >
+                  <div>
+                    <img
+                      src="/images/Components/Cases/Lian Li/O11D Mini/O11D Air Mini White/O11-Air-MINI-White-2.jpg"
+                      alt="#"
+                    />
+                    <div class="productDetails">
+                      <h2>The Governor</h2>
+                      <hr />
+                      <p class="price">6500</p>
+                      <p class="cartBtn">Add to Cart</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="productWrapper locator-gaming gaming 7000">
+                <a
+                  href="products.html"
+                  target="_blank"
+                  class="storeItem"
+                  id="The Minister"
+                  data-item="gaming"
+                >
+                  <div>
+                    <img
+                      src="/images/Components/Cases/Lian Li/O11D Mini/O11D Air Mini White/O11-Air-MINI-White-2.jpg"
+                      alt="#"
+                    />
+                    <div class="productDetails">
+                      <h2>The Minister</h2>
+                      <hr />
+                      <p class="price">7000</p>
+                      <p class="cartBtn">Add to Cart</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="productWrapper locator-gaming gaming 4500">
+                <a
+                  href="products.html"
+                  target="_blank"
+                  class="storeItem"
+                  id="The Ambassador"
+                  data-item="gaming"
+                >
+                  <div>
+                    <img
+                      src="/images/Components/Cases/Lian Li/O11D Mini/O11D Air Mini White/O11-Air-MINI-White-2.jpg"
+                      alt="#"
+                    />
+                    <div class="productDetails">
+                      <h2>The Ambassador</h2>
+                      <hr />
+                      <p class="price">4500</p>
+                      <p class="cartBtn">Add to Cart</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="productWrapper locator-gaming gaming 3000">
+                <a
+                  href="products.html"
+                  target="_blank"
+                  class="storeItem"
+                  id="Diamond"
+                  data-item="gaming"
+                >
+                  <div>
+                    <img
+                      src="/images/Components/Cases/Lian Li/O11D Mini/O11D Air Mini White/O11-Air-MINI-White-2.jpg"
+                      alt="#"
+                    />
+                    <div class="productDetails">
+                      <h2>Crown: Diamond</h2>
+                      <hr />
+                      <p class="price">3000</p>
+                      <p class="cartBtn">Add to Cart</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="productWrapper locator-gaming gaming 2500">
+                <a
+                  href="products.html"
+                  target="_blank"
+                  class="storeItem"
+                  id="Gold"
+                  data-item="gaming"
+                >
+                  <div>
+                    <img
+                      src="/images/Components/Cases/Lian Li/O11D Mini/O11D Air Mini White/O11-Air-MINI-White-2.jpg"
+                      alt="#"
+                    />
+                    <div class="productDetails">
+                      <h2>Crown: Gold</h2>
+                      <hr />
+                      <p class="price">2500</p>
+                      <p class="cartBtn">Add to Cart</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="productWrapper locator-gaming gaming 2000">
+                <a
+                  href="products.html"
+                  target="_blank"
+                  class="storeItem"
+                  id="Silver"
+                  data-item="gaming"
+                >
+                  <div>
+                    <img
+                      src="/images/Components/Cases/Lian Li/O11D Mini/O11D Air Mini White/O11-Air-MINI-White-2.jpg"
+                      alt="#"
+                    />
+                    <div class="productDetails">
+                      <h2>Crown: Silver</h2>
+                      <hr />
+                      <p class="price">2000</p>
+                      <p class="cartBtn">Add to Cart</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="productWrapper locator-audio audio 800">
+                <a
+                  href="products.html"
+                  target="_blank"
+                  class="storeItem"
+                  id="The Commissioner"
+                  data-item="audio"
+                >
+                  <div>
+                    <img
+                      src="/images/Components/Cases/Lian Li/O11D Mini/O11D Air Mini White/O11-Air-MINI-White-2.jpg"
+                      alt="#"
+                    />
+                    <div class="productDetails">
+                      <h2>The Commissioner</h2>
+                      <hr />
+                      <p class="price">800</p>
+                      <p class="cartBtn">Add to Cart</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="productWrapper locator-audio audio 750">
+                <a
+                  href="products.html"
+                  target="_blank"
+                  class="storeItem"
+                  id="The Chief"
+                  data-item="audio"
+                >
+                  <div>
+                    <img
+                      src="/images/Components/Cases/Lian Li/O11D Mini/O11D Air Mini White/O11-Air-MINI-White-2.jpg"
+                      alt="#"
+                    />
+                    <div class="productDetails">
+                      <h2>The Chief</h2>
+                      <hr />
+                      <p class="price">750</p>
+                      <p class="cartBtn">Add to Cart</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="productWrapper locator-audio audio 650">
+                <a
+                  href="products.html"
+                  target="_blank"
+                  class="storeItem"
+                  id="The Deputy"
+                  data-item="audio"
+                >
+                  <div>
+                    <img
+                      src="/images/Components/Cases/Lian Li/O11D Mini/O11D Air Mini White/O11-Air-MINI-White-2.jpg"
+                      alt="#"
+                    />
+                    <div class="productDetails">
+                      <h2>The Deputy</h2>
+                      <hr />
+                      <p class="price">650</p>
+                      <p class="cartBtn">Add to Cart</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Footer-->
+      <div class="footer">
+        <div class="col1">
+          <h3>Useful Links</h3>
+          <a href="index.html">Homepage</a>
+          <a href="shop.html">Shop</a>
+          <a href="shop.html" class="locator-audio locator">Audio PCs</a>
+          <a href="shop.html" class="locator-gaming locator">Gaming PCs</a>
+          <a href="support.html">Support</a>
+          <a href="blog.html">Blog</a>
+        </div>
+        <div class="col2">
+          <h3>News Letter</h3>
+          <form>
+            <input type="email" placeholder="Your Email Address" required />
+            <br />
+            <button type="submit">Subscribe Now</button>
+          </form>
+        </div>
+        <div class="col3">
+          <h3>Contact</h3>
+          <p>123, XYZ Road, 4930<br />Invercargill, New Zealand</p>
+          <div class="socialIcons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/Javascript/index.js"></script>
+    <script type="module" src="/Javascript/shop.js"></script>
+  </body>
+</html>

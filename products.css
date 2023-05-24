@@ -1,0 +1,100 @@
+.main
+.container {
+    margin: 0 20%;
+    padding: 0 30px;
+    border-left: 1px solid #27211E;
+    border-right: 1px solid #27211E;
+}
+    #innerContainer {
+        padding: 45px 0;
+    }
+    #topContainer {
+        display: flex;
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+        #product-title {
+            text-align: center;
+            font-size: 40px;
+            margin-bottom: 40px;
+        }
+        #thumbnails {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+            #thumbnails img {
+                padding: 5px;
+                width: 100px; 
+                border: 1px solid #27211E;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        .thumb { 
+            margin-right: 10px; 
+            cursor: pointer;
+            }
+            .gallery { 
+            width: 500px; 
+            }
+            #gallery {
+                max-width: 600px;
+            }
+                #currentImage {
+                    width: 100%;
+                }
+
+                .info {
+                    display: none;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 30px;
+                    width: 300px;
+                    height: fit-content;
+                    border: 1px solid #27211E;
+                    border-radius: 5px;
+                    padding: 10px;
+                }
+                    .product-title {
+                        font-size: 30px;
+                        margin-bottom: 10px;
+                    }
+                    .details {
+                        margin-bottom: 10px;
+                    }
+                    .product-price {
+                        font-size: 20px;
+                        margin-bottom: 10px;
+                    }
+                    .add-to-cart {
+                        padding: 10px;
+                        width: 100px;
+                        border: 1px solid #27211E;
+                        border-radius: 20px;
+                        cursor: pointer;
+                    }
+                    .add-to-cart:hover {
+                        background-color: #85746d;
+                    }
+    
+    #bottom-container h4 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .description-container {
+        display: none;
+        flex-direction: column;
+    }
+        .specs {
+            font-size: 20px;
+            border-collapse: collapse;
+            border: 1px solid #27211E;
+        }
+        .specs td,
+        .specs tr {
+            border: 1px solid #27211E;
+            padding: 10px;
+        }
+        
+    
