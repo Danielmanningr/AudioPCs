@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio PCs - Shop</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/format.css" />
+    <link rel="stylesheet" type="text/css" href="/css/support.css" />
+    <script
+      src="https://kit.fontawesome.com/eeb53423b0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="preload">
+    <div class="page">
+      <!--Header | Site navigation-->
+      <div class="header">
+        <div class="headerTopNavigation section">
+          <div class="container">
+            <div class="headerTopNavigationMenu">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                  <a href="shop.html" class="all locator">Shop</a>
+                </li>
+                <li>
+                  <a href="shop.html" class="locator-audio locator"
+                    >Audio PCs</a
+                  >
+                </li>
+                <li>
+                  <a href="shop.html" class="locator-gaming locator"
+                    >Gaming PCs</a
+                  >
+                </li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="blog.html">Blog</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--Header | Primary header-->
+        <div class="headerPrimaryContainer section">
+          <div class="logoTitle">
+            <div class="logo">
+              <img src="/images/Icons/logoWhite.png" alt="Company Logo" />
+            </div>
+            <h1 class="title">Audio PCs</h1>
+          </div>
+
+          <!--Search bar-->
+          <div class="search">
+            <form id="searchBar">
+              <input type="text" id="searchInput" placeholder="Search.." />
+            </form>
+          </div>
+
+          <!--User menu-->
+          <div class="userMenu">
+            <ul>
+              <li>
+                <a href="#">Account</a>
+              </li>
+              <li><a href="#">Wishlist</a></li>
+              <li class="cart">
+                <a href="#"
+                  >Cart<img src="/images/Icons/Cart Icon.png" alt="Cart Icon"
+                /></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="miniUserMenu">
+            <ul>
+              <li class="searchIcon">
+                <a href="#">
+                  <img src="/images/Icons/WhiteSearchIcon.png" alt="Search" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="/images/Icons/whiteProfileIcon.png" alt="Account" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="/images/Icons/Cart Icon.png" alt="Cart" />
+                </a>
+              </li>
+              <li>
+                <!-- Hamburger icon -->
+                <input class="side-menu" type="checkbox" id="side-menu" />
+                <label class="hamb" for="side-menu">
+                  <span class="hamb-line"></span>
+                  <div class="hambMenu">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <div class="container">Pre-built PCs</div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="container">Design your own PC</div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="container">Resources</div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="container">Support</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </label>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!--Dropdown menu-->
+        <div class="pageHeader">
+          <!--Dropdown menu-->
+          <div class="headerNavigationContainer">
+            <div class="innerContainer">
+              <div class="headerNavigationMenu">
+                <div class="dropdownMenu">
+                  <div class="dropdown">
+                    <button class="dropButton bigDropButton">
+                      <a href="shop.html" class="all locator">Pre-built PCs</a>
+                    </button>
+                    <div class="dropdownContent">
+                      <a href="shop.html" class="locator-audio locator"
+                        >Audio PCs</a
+                      >
+                      <a href="shop.html" class="locator-gaming locator"
+                        >Gaming PCs</a
+                      >
+                    </div>
+                  </div>
+                  <div class="menuItem">
+                    <button class="dropButton bigDropButton">
+                      Design your own PC
+                    </button>
+                    <div class="dropdownContent"></div>
+                  </div>
+                  <div class="dropdown">
+                    <button class="dropButton bigDropButton">Resources</button>
+                    <div class="dropdownContent">
+                      <a href="#">Blog</a>
+                      <a href="#">News</a>
+                    </div>
+                  </div>
+                  <div class="menuItem">
+                    <button class="dropButton bigDropButton">Support</button>
+                    <div class="dropdownContent"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Main | Page content-->
+      <div class="main section" id="main">
+        <div class="wrapper">
+          <div class="container">
+            <form action="/" class="support-form">
+              <div class="title">
+                <h3>Support form</h3>
+              </div>
+              <div class="info" id="form-info">
+                <input
+                  id="fname"
+                  type="text"
+                  name="name"
+                  placeholder="Full name (required)"
+                  required
+                />
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Email (required)"
+                  id="email"
+                  required
+                />
+                <input type="text" name="name" placeholder="Phone number" />
+                <textarea
+                  type="text"
+                  name="name"
+                  placeholder="Message (required)"
+                  class="msg"
+                  id="msg"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" id="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!--Footer-->
+      <div class="footer">
+        <div class="col1">
+          <h3>Useful Links</h3>
+          <a href="index.html">Homepage</a>
+          <a href="shop.html">Shop</a>
+          <a href="shop.html" class="locator-audio locator">Audio PCs</a>
+          <a href="shop.html" class="locator-gaming locator">Gaming PCs</a>
+          <a href="support.html">Support</a>
+          <a href="blog.html">Blog</a>
+        </div>
+        <div class="col2">
+          <h3>News Letter</h3>
+          <form>
+            <input type="email" placeholder="Your Email Address" required />
+            <br />
+            <button type="submit">Subscribe Now</button>
+          </form>
+        </div>
+        <div class="col3">
+          <h3>Contact</h3>
+          <p>123, XYZ Road, 4930<br />Invercargill, New Zealand</p>
+          <div class="socialIcons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/Javascript/index.js"></script>
+    <script type="module" src="/Javascript/support.js"></script>
+  </body>
+</html>

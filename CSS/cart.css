@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+    .inner-container {
+        width: 1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .inner-container h2 {
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .inner-container td,
+    .inner-container tr{
+        border: 1px solid #27211E;
+        padding: 10px;
+    }
+
+        .cart-table {
+            border-collapse: collapse;
+            border: 1px solid #27211E;
+        }
+        .cart-table td,
+        .cart-table tr {
+            border: 1px solid #27211E;
+            padding: 10px;
+        }
