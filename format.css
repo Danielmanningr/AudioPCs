@@ -47,6 +47,7 @@ body {
         background-color: #27211E;
         border-bottom: 1px solid #625048;
         text-align: left;
+        overflow: hidden;
     }
         .headerTopNavigation
         .container {
