@@ -227,7 +227,7 @@ body {
         }
 
         .side-menu:checked ~ .hamb .hambMenu{
-            max-height: 33%;
+            max-height: 45%;
         }
 
         .hambMenu ul {
