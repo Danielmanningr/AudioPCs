@@ -15,7 +15,7 @@ gallery.appendChild(galleryimg);
 for (let i = 1; i < 4; i++) {
   let thumb = document.createElement("img");
 
-  thumb.src = "images/productGalleries/" + displayimg + "/image" + i + ".jpg";
+  thumb.src = "images/ProductGalleries/" + displayimg + "/image" + i + ".jpg";
   thumb.alt = "Image " + i;
   
   thumb.classList.add("thumb");
