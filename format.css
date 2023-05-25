@@ -62,18 +62,12 @@ body {
                 .headerTopNavigationMenu a{
                     color: #D0D0D0;
                 }
-            
-            /*Add fade to site menu on low resolution*/
-            .headerTopNavigation .container:before {
-                position: absolute;
-                content: "";
-                display: block;
-                width: 150px;
-                height: 37px;
-                right: -75px;
-                top: -10px;
-                background-image: linear-gradient(to right, transparent, #27211E);
-            }
+                @media screen and (max-width: 950px) {
+                    .headerTopNavigationMenu 
+                    .hide {
+                        display: none;
+                    }
+                }
 
     /*Primary header*/
     .headerPrimaryContainer {
