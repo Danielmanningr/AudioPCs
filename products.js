@@ -5,22 +5,18 @@ console.log(displayimg)
 let thumbnails = document.getElementById("thumbnails");
 let galleryimg = document.createElement("img");
 
-galleryimg.src = "images/ProductGalleries/" + displayimg + "/image1.png";
+galleryimg.src = "images/ProductGalleries/" + displayimg + "/image1.jpg";
 galleryimg.alt = "Image 1";
 galleryimg.id = "currentImage";
 galleryimg.classList.add("gallery");
-
-console.log(galleryimg);
 
 gallery.appendChild(galleryimg);
 
 for (let i = 1; i < 4; i++) {
   let thumb = document.createElement("img");
 
-  thumb.src = "images/productGalleries/" + displayimg + "/image" + i + ".png";
+  thumb.src = "images/productGalleries/" + displayimg + "/image" + i + ".jpg";
   thumb.alt = "Image " + i;
-
-  console.log(thumb);
   
   thumb.classList.add("thumb");
 
