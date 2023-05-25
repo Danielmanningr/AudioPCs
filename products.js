@@ -10,7 +10,7 @@ galleryimg.alt = "Image 1";
 galleryimg.id = "currentImage";
 galleryimg.classList.add("gallery");
 
-console.log(galleryimg.src);
+console.log(galleryimg);
 
 gallery.appendChild(galleryimg);
 
@@ -20,7 +20,7 @@ for (let i = 1; i < 4; i++) {
   thumb.src = "images/productGalleries/" + displayimg + "/image" + i + ".png";
   thumb.alt = "Image " + i;
 
-  console.log(thumb.src);
+  console.log(thumb);
   
   thumb.classList.add("thumb");
 
