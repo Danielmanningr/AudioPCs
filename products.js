@@ -5,7 +5,7 @@ console.log(displayimg)
 let thumbnails = document.getElementById("thumbnails");
 let galleryimg = document.createElement("img");
 
-galleryimg.src = "/images/productGalleries/" + displayimg + "/image1.png";
+galleryimg.src = "images/ProductGalleries/" + displayimg + "/image1.png";
 galleryimg.alt = "Image 1";
 galleryimg.id = "currentImage";
 galleryimg.classList.add("gallery");
@@ -15,7 +15,7 @@ gallery.appendChild(galleryimg);
 for (let i = 1; i < 4; i++) {
   let thumb = document.createElement("img");
 
-  thumb.src = "/images/productGalleries/" + displayimg + "/image" + i + ".png";
+  thumb.src = "images/productGalleries/" + displayimg + "/image" + i + ".png";
   thumb.alt = "Image " + i;
 
   thumb.classList.add("thumb");
