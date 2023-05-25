@@ -52,10 +52,10 @@ displayInfo.style.display = 'flex';
 const cartbtn = document.querySelectorAll('add-to-cart')
   cartbtn.forEach((button) => {
     button.addEventListener('click', (e) => {
-      if (displayimg === 'The Queens') {
+      if (newDisplay === 'The Queens') {
         localStorage.setItem('Cart', displayimg);
         console.log('bye')
-      } else if (displayimg === 'The Kings') {
+      } else if (newDisplay === 'The Kings') {
           localStorage.setItem('Cart', displayimg);
           console.log(hi)
         }
