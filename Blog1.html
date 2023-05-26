@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Audio PCs - Shop</title>
+    <title>Homepage</title>
     <link rel="stylesheet" type="text/css" href="format.css" />
-    <link rel="stylesheet" type="text/css" href="blogformat.css" />
+    <link rel="stylesheet" type="text/css" href="homepage.css" />
     <script
       src="https://kit.fontawesome.com/eeb53423b0.js"
       crossorigin="anonymous"
@@ -15,114 +15,112 @@
   <body class="preload">
     <div class="page">
       <!--Header | Site navigation-->
-      <div class="header">
-        <div class="headerTopNavigation section">
-          <div class="container">
-            <div class="headerTopNavigationMenu">
-              <ul>
-                <li><a href="index.html">Home</a></li>
-                <li>
-                  <a href="shop.html" class="all locator">Shop</a>
-                </li>
-                <li>
-                  <a href="shop.html" class="locator-audio locator"
-                    >Audio PCs</a
-                  >
-                </li>
-                <li>
-                  <a href="shop.html" class="locator-gaming locator"
-                    >Gaming PCs</a
-                  >
-                </li>
-                <li><a href="support.html">Support</a></li>
-                <li><a href="blog.html">Blog</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <!--Header | Primary header-->
-        <div class="headerPrimaryContainer section">
-          <div class="logoTitle">
-            <div class="logo">
-              <img src="images/Icons/logoWhite.png" alt="Company Logo" />
-            </div>
-            <h1 class="title">Audio PCs</h1>
-          </div>
-
-          <!--Search bar-->
-          <div class="search">
-            <form id="searchBar">
-              <input type="text" id="searchInput" placeholder="Search.." />
-            </form>
-          </div>
-
-          <!--User menu-->
-          <div class="userMenu">
+      <div class="headerTopNavigation section">
+        <div class="container">
+          <div class="headerTopNavigationMenu">
             <ul>
+              <li><a href="index.html">Home</a></li>
               <li>
-                <a href="#">Account</a>
+                <a href="shop.html" class="all locator">Shop</a>
               </li>
-              <li><a href="#">Wishlist</a></li>
-              <li class="cart">
-                <a href="#"
-                  >Cart<img src="images/Icons/cartIcon.png" alt="Cart Icon"
-                /></a>
+              <li class="hide">
+                <a href="shop.html" class="locator-audio locator">Audio PCs</a>
               </li>
-            </ul>
-          </div>
-
-          <div class="miniUserMenu">
-            <ul>
-              <li class="searchIcon">
-                <a href="#">
-                  <img src="/images/Icons/WhiteSearchIcon.png" alt="Search" />
-                </a>
+              <li class="hide">
+                <a href="shop.html" class="locator-gaming locator"
+                  >Gaming PCs</a
+                >
               </li>
-              <li>
-                <a href="#">
-                  <img src="/images/Icons/whiteProfileIcon.png" alt="Account" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="/images/Icons/Cart Icon.png" alt="Cart" />
-                </a>
-              </li>
-              <li>
-                <!-- Hamburger icon -->
-                <input class="side-menu" type="checkbox" id="side-menu" />
-                <label class="hamb" for="side-menu">
-                  <span class="hamb-line"></span>
-                  <div class="hambMenu">
-                    <ul>
-                      <li>
-                        <a href="#">
-                          <div class="container">Pre-built PCs</div>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <div class="container">Design your own PC</div>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <div class="container">Resources</div>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <div class="container">Support</div>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </label>
-              </li>
+              <li><a href="support.html">Support</a></li>
+              <li><a href="blog.html">Blog</a></li>
             </ul>
           </div>
         </div>
+      </div>
+
+      <!--Header | Primary header-->
+      <div class="headerPrimaryContainer section">
+        <div class="logoTitle">
+          <div class="logo">
+            <img src="images/Icons/logoWhite.png" alt="Company Logo" />
+          </div>
+          <h1 class="title">Audio PCs</h1>
+        </div>
+
+        <div class="dropdownMenu">
+          <div class="dropdown">
+            <a href="shop.html" class="locator">
+              <button class="all dropButton bigDropButton">
+                Pre-built PCs
+              </button>
+            </a>
+            <div class="dropdownContent">
+              <a href="shop.html" class="locator-audio locator">Audio PCs</a>
+              <a href="shop.html" class="locator-gaming locator">Gaming PCs</a>
+            </div>
+          </div>
+          <a href="blog.html" class="menuItem">
+            <button class="dropButton bigDropButton">Blog</button>
+            <div class="dropdownContent"></div>
+          </a>
+          <a href="support.html" class="menuItem">
+            <button class="dropButton bigDropButton">Support</button>
+            <div class="dropdownContent"></div>
+          </a>
+        </div>
+
+        <!--User menu-->
+        <div class="userMenu">
+          <ul>
+            <li class="cart">
+              <a href="cart.html"
+                >Cart<img src="images/Icons/cartIcon.png" alt="Cart Icon"
+              /></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="miniUserMenu">
+          <ul>
+            <li>
+              <a href="#">
+                <img src="images/Icons/cartIcon.png" alt="Cart" />
+              </a>
+            </li>
+            <li>
+              <!-- Hamburger icon -->
+              <input class="side-menu" type="checkbox" id="side-menu" />
+              <label class="hamb" for="side-menu">
+                <span class="hamb-line"></span>
+                <div class="hambMenu">
+                  <ul>
+                    <li>
+                      <a href="shop.html" class="locator">
+                        <div class="locator-audio container">Audio PCs</div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="shop.html" class="locator">
+                        <div class="locator-gaming container">Gaming PCs</div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="blog.html">
+                        <div class="container">Blog</div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="support.html">
+                        <div class="container">Support</div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
 
         <!--Dropdown menu-->
         <div class="pageHeader">
