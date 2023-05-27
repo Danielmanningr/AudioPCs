@@ -12,6 +12,10 @@
         border-left: 1px solid #27211E;
         border-right: 1px solid #27211E;
     }
+    iframe {
+            width: 0;
+            height: 0;
+        }
         hr {
             height: 1px;
             width: 1100px;
